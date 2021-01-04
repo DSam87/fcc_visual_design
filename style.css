@@ -2,6 +2,7 @@
     --main-color: rgb(65, 65, 65);
     --second-color: hsl(0, 0%, 10%);
     --gray-color: hsl(0,0%,75%);
+    --dark-gray-color: hsl(0,0%,45%);
 
 
 }
@@ -44,6 +45,11 @@ nav{
     color: white;
 }
 
+hr{
+    margin-top: 40px;
+    width: 70%;
+}
+
 .page-intro{
     background: var(--gray-color);
     width:max-content;
@@ -72,11 +78,35 @@ h1, h2, h3{
     height: 200px;
     box-shadow: 5px 10px #333 ;
 }
+.large-card{
+    width: 90%;
+    margin: auto;
+    background: var(--dark-gray-color);
+    border-radius: 10px;
+    box-shadow: 5px 10px #333 ;
+    height: 600px;
+
+
+}
 .card h4{
     padding-top: 10%;
 }
 
 #position-relative-main{
+    position: relative;
+}
+
+#position-absolute-1{
+    position: absolute;
+    top: 35px;
+    right: 70px;
+}
+
+#position-absolute-2{
+    position: absolute;
+    bottom: 50px;
+    left: 240px;
+
 }
 
 
