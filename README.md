@@ -1,0 +1,1 @@
+Just a quick project to go over what I learned in  free code camp's Applied Visual Design.
