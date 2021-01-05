@@ -40,7 +40,7 @@ nav{
 }
 
 #nav-container a{
-    padding: 0px 20px;
+    padding: 5px 20px;
     color: var(--main-color);
     font-weight: 700;
     color: white;
@@ -66,6 +66,9 @@ h1, h2, h3{
     text-align: center;
 
 }
+h3{
+    margin-top: 50px;
+}
 
 .center-text{
     text-align: center;
@@ -86,6 +89,7 @@ h1, h2, h3{
     border-radius: 10px;
     box-shadow: 5px 10px #333 ;
     height: 600px;
+    position: relative;
 
 
 }
@@ -93,9 +97,7 @@ h1, h2, h3{
     padding-top: 10%;
 }
 
-#position-relative-main{
-    position: relative;
-}
+
 
 #position-absolute-1{
     position: absolute;
@@ -116,6 +118,46 @@ h1, h2, h3{
     left:390px;
 
 }
+
+#position-relative-main{
+    position: relative;
+}
+
+.card1{
+    float: left;
+    margin: 10px;
+    background: linear-gradient(45deg, red, blue)
+    
+
+}
+.card2{
+    float: left;
+    margin: 10px;
+    background: linear-gradient(to right,
+      yellow 0%, green 100% );
+}
+.card3{
+    float: left;
+    margin: 10px;
+    clear:left;
+    background: linear-gradient(45deg, darkgray 20%, lightgray 20% 100%);
+    
+}
+.card4{
+    float: left;
+    margin: 10px;
+    background: linear-gradient(0deg, blue, orange , blue )
+}
+
+.float-card-holder{
+    margin:  auto;
+    width: max-content;
+}
+
+
+
+
+
 
 
 
